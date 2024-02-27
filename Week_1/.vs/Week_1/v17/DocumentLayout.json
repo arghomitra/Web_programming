@@ -22,12 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 194,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\argho\\OneDrive\\Desktop\\Web Programming\\Web_programming(Backend)\\Week_1\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAcwAkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-19T14:11:33.008Z",
               "EditorCaption": ""
@@ -49,10 +45,9 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\argho\\OneDrive\\Desktop\\Web Programming\\Web_programming(Backend)\\Week_1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T14:11:29.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T14:11:29.312Z"
             },
             {
               "$type": "Document",
@@ -62,10 +57,9 @@
               "RelativeDocumentMoniker": "WeatherForecast.cs",
               "ToolTip": "C:\\Users\\argho\\OneDrive\\Desktop\\Web Programming\\Web_programming(Backend)\\Week_1\\WeatherForecast.cs",
               "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-19T14:11:26.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-19T14:11:26.402Z"
             }
           ]
         }

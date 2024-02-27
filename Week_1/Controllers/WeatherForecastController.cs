@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Cryptography;
 
 namespace Week_1.Controllers
 {
@@ -18,16 +19,41 @@ namespace Week_1.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet]
+        [AcceptVerbs("GET")]
+        [Route("SUMMARIES")]
+        public IEnumerable<string> GetSummaries()
+        {
+            return Summaries;
+        }
+        [HttpGet]
+        public IEnumerable<WeatherForecast> Get(int range)
+        {
+            
+            Random rng = new Random();
+
+            
+            
+
+            WeatherForecast[] array = new WeatherForecast[range];
+            for (int i = 0; i< array.Length; i++)
+            {
+               
+                array[i] = new WeatherForecast
+                {
+                    Date = DateTime.Now.AddDays(i),
+                    TemperatureC = rng.Next(-20, 55),
+                    Summary = Summaries[rng.Next(Summaries.Length)]
+                };
+            }
+            return array;
+            
+        }
+        [AcceptVerbs("POST","GET")]
+
         public IEnumerable<WeatherForecast> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+            return null;
         }
 
         

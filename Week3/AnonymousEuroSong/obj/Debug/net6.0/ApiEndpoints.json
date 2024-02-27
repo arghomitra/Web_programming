@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "AnonymousEuroSong.Controllers.SongsController",
+    "Method": "Get",
+    "RelativePath": "Songs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[AnonymousEuroSong.Models.Song, AnonymousEuroSong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AnonymousEuroSong.Controllers.SongsController",
+    "Method": "Post",
+    "RelativePath": "Songs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "song",
+        "Type": "AnonymousEuroSong.Models.Song",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
