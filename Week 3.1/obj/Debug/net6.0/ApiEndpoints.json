@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "Week_3._1.Controllers.SongsController",
+    "Method": "Get",
+    "RelativePath": "api/Songs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Week_3._1.Models.Songs, AnonymousEurosong, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Week_3._1.Controllers.SongsController",
+    "Method": "Post",
+    "RelativePath": "api/Songs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "song",
+        "Type": "Week_3._1.Models.Songs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
