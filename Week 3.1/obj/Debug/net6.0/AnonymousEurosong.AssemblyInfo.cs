@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnonymousEurosong")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca16363322d4588742a57c380346b3a0a9716654")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5e6ce20c49ac443bc084afef80003b36ae93f88")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnonymousEurosong")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnonymousEurosong")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

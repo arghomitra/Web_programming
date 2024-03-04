@@ -13,7 +13,7 @@ namespace Week_3._1.Controllers
 
         public SongsController(IAnonymousEurosonDataContext data)
         {
-            _data = data;
+            this._data = data;
         }
 
         [HttpGet]

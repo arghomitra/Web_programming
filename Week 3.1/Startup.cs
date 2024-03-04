@@ -1,4 +1,5 @@
-﻿using Week_3._1.Data;
+﻿using Microsoft.Extensions.DependencyInjection;
+using Week_3._1.Data;
 
 namespace Week_3._1
 {
@@ -7,11 +8,9 @@ namespace Week_3._1
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddScoped(typeof(IAnonymousEurosonDataContext), typeof(AnonymousEurosongDataList));
-            //or 
-            services.AddTransient(typeof(IAnonymousEurosonDataContext), typeof(AnonymousEurosongDataList));
-            //or 
-            services.AddSingleton(typeof(IAnonymousEurosonDataContext), typeof(AnonymousEurosongDataList));
+
+            services.AddScoped<IAnonymousEurosonDataContext, IAnonymousEurosonDataContext>();
+
 
         }
     }
