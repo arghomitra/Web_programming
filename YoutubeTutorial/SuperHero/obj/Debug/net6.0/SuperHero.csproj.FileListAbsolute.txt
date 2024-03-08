@@ -1,8 +1,0 @@
-C:\Users\argho\OneDrive\Desktop\Web Programming\Web_programming(Backend)\YoutubeTutorial\SuperHero\obj\Debug\net6.0\SuperHero.csproj.AssemblyReference.cache
-C:\Users\argho\OneDrive\Desktop\Web Programming\Web_programming(Backend)\YoutubeTutorial\SuperHero\obj\Debug\net6.0\SuperHero.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\argho\OneDrive\Desktop\Web Programming\Web_programming(Backend)\YoutubeTutorial\SuperHero\obj\Debug\net6.0\SuperHero.AssemblyInfoInputs.cache
-C:\Users\argho\OneDrive\Desktop\Web Programming\Web_programming(Backend)\YoutubeTutorial\SuperHero\obj\Debug\net6.0\SuperHero.AssemblyInfo.cs
-C:\Users\argho\OneDrive\Desktop\Web Programming\Web_programming(Backend)\YoutubeTutorial\SuperHero\obj\Debug\net6.0\SuperHero.csproj.CoreCompileInputs.cache
-C:\Users\argho\OneDrive\Desktop\Web Programming\Web_programming(Backend)\YoutubeTutorial\SuperHero\obj\Debug\net6.0\SuperHero.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\argho\OneDrive\Desktop\Web Programming\Web_programming(Backend)\YoutubeTutorial\SuperHero\obj\Debug\net6.0\SuperHero.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\argho\OneDrive\Desktop\Web Programming\Web_programming(Backend)\YoutubeTutorial\SuperHero\obj\Debug\net6.0\SuperHero.sourcelink.json
