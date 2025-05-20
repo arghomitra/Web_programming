@@ -1,70 +1,39 @@
-# 👋 Hi, I'm Argho Mitra
+# .NET 6 API with Swagger Documentation
 
-I'm a Data Science student based in Belgium, passionate about solving real-world problems using data, AI, and intelligent automation. Currently pursuing a 3-year professional Bachelor's degree at a Hogeschool in Belgium, I'm actively seeking internship opportunities in **Data Science**, **Machine Learning**, or **AI Product Experimentation**.
+This repository contains a .NET 6 Web API project that utilizes Swagger for API documentation.
 
----
+## Getting Started
 
-## 🚀 About Me
+Follow the instructions below to set up and run the API project locally.
 
-- 🎓 Bachelor’s in Applied Computer Science (Data Science track) — Hogeschool, Belgium  
-- 🧠 Interests: AI, Data Engineering, Machine Learning, Forecasting, Prompt Engineering, Automation  
-- 🌍 Based in Belgium (CEST) with a student residence permit  
-- 💼 Actively looking for internships from **September 15 to December 19, 2025** (flexible duration)  
-- 💬 Languages: English, Dutch (basic), Bengali  
+### Prerequisites
 
----
+- [.NET 6 SDK](https://dotnet.microsoft.com/download/dotnet/6.0)
+- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or [Visual Studio Code](https://code.visualstudio.com/) with C# support
 
-## 🔧 Technical Skills
+### Installation
 
-- **Languages**: Python, JavaScript/TypeScript, SQL, HTML/CSS  
-- **Frameworks & Tools**:  
-  - Data Science: Pandas, NumPy, Scikit-learn, PyTorch, TensorFlow  
-  - Visualization: Power BI, Matplotlib, Seaborn  
-  - Web Dev: Next.js, Tailwind CSS, Supabase, Shadcn UI  
-  - DevOps: Git, GitLab CI/CD, Docker  
-  - Cloud: AWS (basic), MCP  
-  - AI/LLM: Prompt Engineering, LangChain, OpenAI API  
-- **Database**: PostgreSQL, Supabase  
-- **Others**: REST APIs, GitHub, GitLab, Agile & Slack
+1. Clone the repository:
 
----
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
 
-## 📈 Projects
+2. Navigate to the project directory:
 
-### 🔹 **Electricity Load Forecasting with Elia Data**  
-> Analyzed and forecasted electricity load data from [Elia](https://www.elia.be/), the Belgian grid operator.  
-- Used **Facebook Prophet** and classical time series models  
-- Focused on real-world, energy sector data  
-- Developed interactive visualizations and forecasts  
+    ```bash
+    cd your-repository
+    ```
 
-### 🔹 **AI Automation Projects**  
-> Built mini-apps leveraging OpenAI APIs for smart automation tasks.  
-- Designed prompt chains  
-- Integrated with APIs and deployed on the web  
+3. Build the project:
 
-### 🔹 **Portfolio Website**  
-> My portfolio with all projects and interactive visualizations:  
-🌐 **[argho.be](http://argho.be)**  
+    ```bash
+    dotnet build
+    ```
 
----
+### Running the API
 
-## 🏢 Internship Experience & Goals
+You can run the API using the following commands:
 
-- Applied to several leading internships, including:
-  - Oper Credits (FinTech, AI/ML product experimentation)
-  - Luminas (Automation + Finance)
-  - delaware BeLux (Microsoft Data & AI)
-- I’m particularly interested in roles where I can **own a project**, work on **real data challenges**, and **collaborate cross-functionally**.
-
----
-
-## 📬 Contact Me
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/arghomitra/)  
-- 📨 Email: arghomitra.dev@gmail.com  
-- 🧑‍💻 [GitHub](https://github.com/arghomitra)  
-
----
-
-> “Building intelligent solutions with purpose.” — Personal motto
-
+```bash
+dotnet run --project YourApiProjectName
